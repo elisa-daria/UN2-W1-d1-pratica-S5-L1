@@ -356,7 +356,7 @@ footer a {
   header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly;vertical-align: text-bottom;
   }
   header > div {
     display: flex;
@@ -378,12 +378,15 @@ footer a {
     border-radius: 20px;
     display: inline-block;
   }
-  section {
-    background-color: #e3e3e3;
-    padding: 1em;
-    margin-bottom: 2em;
-    width: 40%;
-    display: inline-block;
+ 
+    section {
+        background-color: #e3e3e3;
+        padding: 1em;
+        margin-bottom: 2em;
+        width: 40%;
+        display: inline-block;
+        vertical-align: text-bottom;
+    }
   }
   aside div {
     background-color: #e3e3e3;
