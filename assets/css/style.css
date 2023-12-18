@@ -392,8 +392,12 @@ footer a {
     padding: 1em;
     display: inline-block;
   }
-  aside {
-    margin-right: auto;
-    margin-left: auto;
+ 
+    aside {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        text-align: center;
+    }
   }
 }
